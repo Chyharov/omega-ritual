@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/omega-ritual/static/css/main.af6cce46.css",
-    "main.js": "/omega-ritual/static/js/main.19cc21c4.js",
+    "main.css": "/omega-ritual/static/css/main.813e26ec.css",
+    "main.js": "/omega-ritual/static/js/main.5ae63695.js",
     "static/media/OpenSans-Regular.ttf": "/omega-ritual/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
     "static/media/OpenSans-SemiBold.ttf": "/omega-ritual/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
     "static/media/Untitled.png": "/omega-ritual/static/media/Untitled.e0e93d52547d6d5c3aec.png",
     "index.html": "/omega-ritual/index.html",
-    "main.af6cce46.css.map": "/omega-ritual/static/css/main.af6cce46.css.map",
-    "main.19cc21c4.js.map": "/omega-ritual/static/js/main.19cc21c4.js.map"
+    "main.813e26ec.css.map": "/omega-ritual/static/css/main.813e26ec.css.map",
+    "main.5ae63695.js.map": "/omega-ritual/static/js/main.5ae63695.js.map"
   },
   "entrypoints": [
-    "static/css/main.af6cce46.css",
-    "static/js/main.19cc21c4.js"
+    "static/css/main.813e26ec.css",
+    "static/js/main.5ae63695.js"
   ]
 }
