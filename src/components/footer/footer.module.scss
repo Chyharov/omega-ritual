@@ -1,23 +1,30 @@
 @import '../../sass/utils/mixin';
 
-.header {
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 40px;
+  padding-bottom: 150px;
   color: var(--primaryTextColor);
   background-color: var(--backgroundColor);
-  padding: 200px 0 200px;
 
   @include mq(tab) {
     color: var(--primaryTextColor);
+    background-color: var(--backgroundColor);
   }
 
   @include mq(desk) {
     color: var(--primaryTextColor);
+    background-color: var(--backgroundColor);
   }
 }
 
-.header__title {
-  margin-left: 50px;
+.footer__title {
+  text-align: center;
+  @include mq(tab) {
+  }
+  @include mq(desk) {
+    width: 1250px;
+  }
 }
