@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/omega-ritual/static/css/main.5e562cc8.css",
+    "main.js": "/omega-ritual/static/js/main.6c39d93c.js",
+    "static/media/OpenSans-Regular.ttf": "/omega-ritual/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "/omega-ritual/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
+    "index.html": "/omega-ritual/index.html",
+    "main.5e562cc8.css.map": "/omega-ritual/static/css/main.5e562cc8.css.map",
+    "main.6c39d93c.js.map": "/omega-ritual/static/js/main.6c39d93c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e562cc8.css",
+    "static/js/main.6c39d93c.js"
+  ]
+}
