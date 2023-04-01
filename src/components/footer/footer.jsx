@@ -4,7 +4,13 @@ const Footer = () => {
   return (
     <div className={s.footer}>
       <div className={s.footer__title}>
-        <p>м.Київ, вул. Колоскова 9</p>
+        <a
+          href="https://goo.gl/maps/f8b4aQGY6j4d34Gu8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          м.Київ, вул. Колоскова 9
+        </a>
         <p>(район Совського кладовища)</p>
       </div>
     </div>
