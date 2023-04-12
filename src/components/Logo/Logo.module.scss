@@ -3,57 +3,10 @@
 .logo {
   display: flex;
   align-items: center;
-  //   transition: transform var(--transition);
-
-  //   &:hover {
-  //     transform: scale(1.05);
-  //   }
-}
-
-.logo__title {
-  font-size: 15px;
-  line-height: 1.36;
-  letter-spacing: 0.02em;
-  margin-left: 8px;
-  color: var(--primaryTextColor);
-  font-weight: 600;
-
-  @include mq(tab) {
-    font-size: 35px;
-    line-height: 1.37;
-
-    margin-left: 10px;
-    width: 500px;
-  }
-
-  @include mq(desk) {
-    margin-left: 4px;
-  }
-}
-
-.logo__description {
-  font-size: 10px;
-  line-height: 1.36;
-  letter-spacing: 0.02em;
-  //   width: 150px;
-  margin-left: 8px;
-  color: var(--primaryTextColor);
-
-  @include mq(tab) {
-    font-size: 35px;
-    line-height: 1.37;
-
-    margin-left: 10px;
-    width: 500px;
-  }
-
-  @include mq(desk) {
-    margin-left: 4px;
-  }
 }
 
 .logo__img {
-  width: 40px;
+  width: 160px;
   height: 40px;
 
   @include mq(tab) {

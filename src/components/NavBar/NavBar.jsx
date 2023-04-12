@@ -1,21 +1,16 @@
+import MobileNavigation from './MobileNavigation';
+import Navigation from './Navigation';
 import s from './NavBar.module.scss'
 
-const NavMenu = ({items, active, setActive}) => {
-
+const NavMenu = () => {
 
   return (
-    <nav className={s.nav}>
-      <div className={`${s.menu} ${active ? s.active : ''}`} onClick={() => setActive(false)}>
-          <div className={s.menu__content} onClick={e => e.stopPropagation()}>
-              <ul className={s.menu__list}>
-                  {items.map(item => <li className={s.menu__list_item}>
-                      <a className={s.menu__list_link} href={item.href}>{item.value}</a>
-                  </li>)}
-              </ul>
-          </div>
-        </div>
+    <div className={s.navBar} onClick={e => e.stopPropagation()}>
+      <nav className={s.nav}>
+        <MobileNavigation />
+        <Navigation />
       </nav>
-
+    </div>
   );
 }
 

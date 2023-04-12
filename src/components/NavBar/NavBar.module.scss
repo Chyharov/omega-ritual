@@ -1,54 +1,13 @@
 @import '../../sass/utils/mixin';
 
-.btn__menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    width: 40px;
-    height: 40px;
-  
-    border: none;
-  
-    fill: #fff;
-    background-color: var(--backgroundColor);
-    cursor: pointer;
-}
-
-.menu {
-    width: 100vw;
-    // height: 100vh;
-    top: 0px;
-    left: 0px;
-    transform: translate(100%);
-    transition: all 0.4s;
-    display: none;
-}
-
-.active {
-    display: flex;
-    transform: translate(0);
-
-}
-
-.menu__content {
-    width: 30%;
-    height: 100%;
-    background-color: var(--backgroundColor);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: all 0.4s;
-}
-
 
 
 .menu__list {
-    margin-top: 30px;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .menu__list_link {
@@ -60,15 +19,38 @@
     display: flex;
     align-items: center;
     margin: 10px;
-    
+    flex-direction: column;
+}
+
+.menu__list_item a:hover {
+    border-bottom: 5px solid var(--primaryTextColor);
 }
 
 @media screen and (max-width: 768px) {
-    .menu__content {
-        width: 100%;
-    }
-    .blur {
-        backdrop-filter: none;
+    .navBar .navigation {
+        display: none;
     }
     
+    .navBar .mobileNavigation {
+        display: flex;
+        background-color: var(--backgroundColor);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navBar .mobileNavigation .hamburgerMenu {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+    }
 }
+
+.hamburgerMenu {
+    width: 40px;
+    height: 40px;
+    color: var(--primaryTextColor);
+    position: absolute;
+    top: 20px;
+    left: 82%;
+    cursor: pointer;
+  }
