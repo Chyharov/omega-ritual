@@ -1,0 +1,61 @@
+@import '../../sass/utils/mixin';
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px 30px;
+  color: var(--primaryTextColor);
+  background-color: var(--backgroundColor);
+
+  @include mq(tab) {
+    color: var(--primaryTextColor);
+    background-color: var(--backgroundColor);
+  }
+
+  @include mq(desk) {
+    color: var(--primaryTextColor);
+    background-color: var(--backgroundColor);
+  }
+}
+
+.hero__container {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__title {
+  text-align: center;
+  @include mq(mob-only) {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  @include mq(tab) {
+  }
+
+  @include mq(desk) {
+    max-width: 1250px;
+  }
+}
+
+.hero__address {
+  @include mq(mob) {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.38;
+  width: 220px;
+  margin: 0 auto;
+  }
+
+  // @include mq(tab) {
+  //   text-align: center;
+  // }
+  // @include mq(desk) {
+  //   text-align: center;
+  //   width: 1250px;
+  // }
+}

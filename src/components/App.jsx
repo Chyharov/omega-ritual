@@ -1,13 +1,19 @@
-import Header from './header/header';
-import Body from './body/body';
-import Footer from './footer/footer';
+import Header from './Header/Header';
+import Hero from './SectionHero/SectionHero';
+import SectionAbout from './SectionAbout/SectionAbout';
+import SectionTeam from './SectionTeam/SectionTeam';
+// import Footer from './Footer/Footer';
 
 export const App = () => {
   return (
     <>
       <Header />
-      <Body />
-      <Footer />
+      <main>
+      <Hero />
+      <SectionAbout />
+      <SectionTeam />
+      </main>
+      {/* <Footer /> */}
     </>
   );
 };

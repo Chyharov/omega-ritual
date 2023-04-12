@@ -1,23 +1,35 @@
 @import '../../sass/utils/mixin';
 
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-  padding: 100px 0 100px;
-  color: var(--primaryTextColor);
+.header__container {
   background-color: var(--backgroundColor);
 
-  @include mq(tab) {
-    color: var(--primaryTextColor);
+  @include mq(mob) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    outline: 1px solid var(--primaryTextColor);
+    margin-bottom: 1px;
   }
 
-  @include mq(desk) {
-    color: var(--primaryTextColor);
+  @include mq(tab) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
-.header__title {
-  margin-left: 50px;
+.burger__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  border: none;
+
+  fill: #fff;
+  cursor: pointer;
+
 }

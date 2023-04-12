@@ -3,7 +3,8 @@
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-  outline: 2px solid tomato;
+
+  background-color: var(--backgroundColor);
   width: 100%;
 
   @media screen and (min-width: 320px) {
