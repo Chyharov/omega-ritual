@@ -1,6 +1,6 @@
 @import '../../sass/utils/mixin';
 
-.sectionRitualGoods {
+.ritualCarPark {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,13 +20,13 @@
   }
 }
 
-.ritualGoods__container {
+.ritualCarPark__container {
   width: 280px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.ritualGoods__title {
+.ritualCarPark__title {
   text-align: center;
   @include mq(mob-only) {
     font-size: 20px;
@@ -42,29 +42,56 @@
   }
 }
 
-.ritualGoodsDiscription {
-    font-size: 13px;
-    font-weight: 500;
-    text-align: justify;
+.ritualCarParkPhotos {
+    height: 210px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-.ritualGoodsDiscription:first-child {
+.ritualCarParkList__item {
+    text-align: center;
     margin-bottom: 20px;
+
 }
 
-.ritualGoodsBtn {
+.ritualCarParkList__description {
+    text-align: center;
+    margin: 20px;
+}
+
+.carouselButtonCenter {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselButton {
     color: var(--primaryTextColor);
     background-color: var(--backgroundColor);
     border-color: var(--primaryTextColor);
     border-radius: 10px;
-    padding: 7px;
-    margin: 30px auto 0px;
+    padding: 6px;
     cursor: pointer;
 }
 
-.ritualGoodsBtn:hover {
-  color: var(--backgroundColor);
-  background-color: var(--primaryTextColor);
-  border-color: var(--backgroundColor);
+.carouselButton:hover {
+    color: var(--backgroundColor);
+    background-color: var(--primaryTextColor);
+    border-color: var(--primaryTextColor);
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.carouselButton:first-child {
+    margin-right: 30px;
+  }
+
+.ritualCarPark__description {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 30px;
 }
