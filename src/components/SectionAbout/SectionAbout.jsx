@@ -11,12 +11,7 @@ const SectionAbout = () => {
           </svg>
           <h1 className={s.about__title}>ОМЕГА-РИТУАЛ</h1>
           <p className={s.about__description}>похоронний дім</p>
-          <a
-            className={s.about__address}
-            href="https://goo.gl/maps/idCvpqAi9fpXf9uLA"
-          >
-            м.Київ, вул.І. Федорова, 33
-          </a>
+          <p className={s.about__company}>Похоронний дім Омега має у своєму розпорядженні всі необхідні товари та послуги, що дозволяють проводити поховання або кремацію будь-якого рівня.</p>
         </div>
       </div>
     </section>

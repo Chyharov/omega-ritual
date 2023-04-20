@@ -74,3 +74,22 @@
 .about__address {
   text-align: center;
 }
+
+.about__company {
+  text-align: center;
+
+  @include mq(mob-only) {
+  font-size: 13px;
+  font-weight: 400;
+  width: 240px;
+  margin: 0 auto;
+  }
+
+  @include mq(tab) {
+  }
+
+  @include mq(desk) {
+  }
+}
+
+

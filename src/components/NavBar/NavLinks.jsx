@@ -49,16 +49,16 @@ const NavLinks = (props) => {
             <motion.li 
             initial={animateFrom}
             animate={animateTo}
-            transition={{delay: 0.40}}
+            transition={{delay: 0.50}}
             className={s.menu__list_item} o
             nClick={() => props.isMobile && props.closeMobileMenu()}>
-                <a className={s.menu__list_link} href="#pices">Ціни</a>
+                <a className={s.menu__list_link} href="#сontacts">Допомога в оформленні кремації</a>
             </motion.li>
 
             <motion.li 
             initial={animateFrom}
             animate={animateTo}
-            transition={{delay: 0.50}}
+            transition={{delay: 0.60}}
             className={s.menu__list_item} o
             nClick={() => props.isMobile && props.closeMobileMenu()}>
                 <a className={s.menu__list_link} href="#сontacts">Контакти</a>
