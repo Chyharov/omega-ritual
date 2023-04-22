@@ -3,7 +3,7 @@ import s from './Logo.module.scss';
 
 const Logo = () => {
   return (
-    <a href="/" className={s.logo}>
+    <a href="main" className={s.logo}>
       <img className={s.logo__img} loading="lazy" src={logo} alt="header__logo" />
     </a>
   );
