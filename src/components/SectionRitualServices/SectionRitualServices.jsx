@@ -3,7 +3,7 @@ import RitualCarParkList from '../RitualCarParkList/RitualCarParkList'
 
 const SectionRitualServices = () => {
   return (
-    <section className={s.sectionRitualServices}>
+    <section className={s.sectionRitualServices} id='services'>
       <div className="container">
         <div className={s.ritualServices__container}>
           <h2 className={s.ritualServices__title}>Ритуальні Послуги</h2>

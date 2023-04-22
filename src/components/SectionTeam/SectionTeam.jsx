@@ -3,7 +3,7 @@ import s from './SectionTeam.module.scss';
 
 const SectionTeam = () => {
   return (
-    <section className={s.team}>
+    <section className={s.team} id='сontacts'>
       <div className="container">
         <ul className={s.team__list}>
           {array.map(({ id, name, position, mobileNumber, homeNumber }) => (

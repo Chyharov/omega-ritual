@@ -3,7 +3,7 @@ import s from '../SectionAbout/SectionAbout.module.scss';
 
 const SectionAbout = () => {
   return (
-    <section className={s.about}>
+    <section className={s.about} id='about'>
       <div className="container">
         <div className={s.about__container}>
           <svg className={s.about__logo} width="100" height="100" viewBox="0 0 35 32">
