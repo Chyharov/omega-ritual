@@ -1,4 +1,4 @@
-import logo from '../../images/omega-ritual-logo.svg';
+import logo from '../../images/logoAbout.svg';
 import s from '../SectionAbout/SectionAbout.module.scss';
 
 const SectionAbout = () => {
@@ -6,7 +6,7 @@ const SectionAbout = () => {
     <section className={s.about} id='about'>
       <div className="container">
         <div className={s.about__container}>
-          <svg className={s.about__logo} width="100" height="100" viewBox="0 0 35 32">
+          <svg className={s.about__logo} width="100" height="100">
             <image xlinkHref={logo} alt="Logo"/>
           </svg>
           <h1 className={s.about__title}>ОМЕГА-РИТУАЛ</h1>
