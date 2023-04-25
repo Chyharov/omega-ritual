@@ -13,9 +13,6 @@
 
 .team__list {
   @include mq(tab) {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 17px;
   }
 
   @include mq(desk) {
@@ -37,11 +34,11 @@
   align-items: center;
 
   @include mq(tab) {
-    width: 223px;
+    width: 280px;
   }
 
   @include mq(desk) {
-    width: 422px;
+    width: 280px;
   }
 
   &:not(:last-child) {

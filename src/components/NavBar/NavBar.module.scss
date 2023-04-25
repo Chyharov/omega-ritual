@@ -3,12 +3,22 @@
 
 
 .menu__list {
+    @include mq(mob) {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 280px;
+    }
+
+    @include mq(tab) {
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    }
 }
 
 .menu__list_link {
@@ -27,23 +37,42 @@
     border-bottom: 5px solid var(--primaryTextColor);
 }
 
-@media screen and (max-width: 768px) {
-    .navBar .navigation {
-        display: none;
-    }
-    
-    .navBar .mobileNavigation {
-        display: flex;
-        background-color: var(--backgroundColor);
-        align-items: center;
-        justify-content: center;
-    }
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    .navBar .mobileNavigation .hamburgerMenu {
-        position: absolute;
-        right: 0;
-        cursor: pointer;
+    @include mq(tab) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navBar .navigation {
+      display: none;
+    }
+  
+    .navBar .mobileNavigation {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .navBar .navigation {
+      display: flex;
+    }
+  
+    .navBar .mobileNavigation {
+      display: none;
+    }
+  }
+
+.navBar .mobileNavigation .hamburgerMenu {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
 }
 
 .hamburgerMenu {
